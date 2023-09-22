@@ -1,0 +1,73 @@
+/* Import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+/* Body styles */
+body {
+    background-color: black;
+    color: white;
+    font: 300 24px 'Roboto', sans-serif;
+}
+
+/* Header styles */
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px; 
+    font-weight: 300;
+}
+
+/* Social links styles */
+.social-links {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.social-links a {
+    color: gray;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s; 
+}
+
+.social-links a:hover,
+.social-links a:focus {
+    color: white;
+    text-shadow: 0px 0px 3px white;
+}
+
+.social-links i {
+    font-size: 36px;
+}
+
+/* Image styles */
+img {
+    height: auto; 
+    width: 222px; 
+}
+
+/* Typography styles */
+.bold-text {
+    font-weight: 400;
+}
+
+.link-text {
+    color: inherit;
+    text-decoration: underline;
+}
+
+.section-title {
+    color: gray;
+    font-size: 36px;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* Layout styles */
+.container, section {
+    margin: 20px auto;
+    width: 50%;
+}
