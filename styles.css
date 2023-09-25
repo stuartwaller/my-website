@@ -52,6 +52,7 @@ img {
 /* Typography styles */
 .bold-text {
     font-weight: 400;
+    font-style: italic; 
 }
 
 .link-text {
